@@ -1,2 +1,0 @@
-# ixa.io
-web ixacolombia

@@ -1,0 +1,12 @@
+name: " "
+output_dir: "."
+navbar:
+  title: " "
+  left:
+    - text: "ixaColombia"
+      icon: fa-home
+      href: index.html
+output:
+  html_document:
+    theme: flatly
+    css: style.css
