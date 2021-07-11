@@ -2,7 +2,15 @@
 title: "COVID-19 Confirmados"
 author: " "
 date: " "
-output: html_document
+output:
+  html_document:
+    toc: yes
+    toc_depth: 2
+    toc_float: yes
+    theme: cosmo
+  pdf_document:
+    toc: yes
+    toc_depth: '2'
 ---
 
 ```{r setup, include=FALSE}
@@ -268,7 +276,7 @@ Contagiados(Villavicencio)
 ```
 
 ```{r, echo=FALSE}
-#   rmarkdown::render("index.Rmd",encoding = "UTF-8")
+#   rmarkdown::render("/home/deg/Documentos/IXA_Comombia/covid19/Covid-19-A.Rmd", encoding = "UTF-8")
 ```
 
 
