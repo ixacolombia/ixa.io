@@ -279,4 +279,7 @@ Contagiados(Villavicencio)
 ```
 
 
+```{r, echo=FALSE}
+# rmarkdown::render("/home/deg/Documentos/IXA_Comombia/ixa.io/Covid-19-A.Rmd", encoding = "UTF-8")
+```
 
